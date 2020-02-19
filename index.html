@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Locale String Audit</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <script src="lib/lodash.min.js"></script>
+
+    <script src="src/loc_app.js"></script>
+
+    <script src="i18n/chartStrings.js"></script>
+    <script src="i18n/dialogStrings.js"></script>
+
+    <script src="i18n/de/chartStrings.js"></script>
+    <script src="i18n/de/dialogStrings.js"></script>
+
+    <script src="i18n/fr/chartsStrings.js"></script>
+    <script src="i18n/fr/dialogStrings.js"></script>
+
+
+</head>
+<body>
+
+<H3>Results</H3>
+<div id="results-div">
+
+</div>
+
+
+</body>
+<script>
+    var app;
+
+    $(function() {
+        app = new LocTest.App();
+        app.initialize();
+    })
+</script>
+</html>

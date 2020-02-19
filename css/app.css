@@ -1,0 +1,88 @@
+body
+{
+    font-family: Poppins, Arial, sans-serif;
+    padding-left: 20px;
+    background-color: #F0F0F0;
+}
+
+ul
+{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+
+.locale-div
+{
+    margin-bottom: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+}
+
+.group-header
+{
+    margin-bottom: 5px;
+}
+
+.header-emphasis
+{
+    font-weight: bold;
+}
+
+
+.string-file-div
+{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.result-item-text
+{
+    font-family: "Courier New";
+    margin-left: 10px;
+    line-height: 25px;
+}
+
+.extra-item:before, .missing-item:before, .ok-text:before
+{
+    content: '';
+    height: 10px;
+    width: 20px;
+    display: inline-block;
+}
+
+
+
+.extra-item:before {
+    background: url(../images/plus.png) center no-repeat;
+    background-size: 11px;
+}
+
+.missing-item:before {
+    background: url(../images/missing.png) center no-repeat;
+    background-size: 9px;
+}
+
+.ok-text:before
+{
+    background: url(../images/check.png) center no-repeat;
+    background-size: 12px;
+}
+
+.locale-flag-de
+{
+    background: url(../images/de-flag.png) no-repeat;
+    background-size: 20px;
+    background-position-x: 90px;
+    background-position-y: 2px;
+}
+
+.locale-flag-fr
+{
+    background: url(../images/fr-flag.png) no-repeat;
+    background-size: 20px;
+    background-position-x: 90px;
+    background-position-y: 2px;
+}
